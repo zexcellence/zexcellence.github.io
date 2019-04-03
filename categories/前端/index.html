@@ -398,7 +398,7 @@
 
       <h2 class="post-title">
         
-          <a class="post-title-link" href="/2019/04/02/hexo在next主题下如何添加分类和标签 - 副本/" itemprop="url">
+          <a class="post-title-link" href="/2019/04/02/hexo在next主题下如何添加分类和标签 - 副本 (2)/" itemprop="url">
             
               <span itemprop="name">hexo在next主题下如何添加分类和标签</span>
             
@@ -424,7 +424,7 @@
 
       <h2 class="post-title">
         
-          <a class="post-title-link" href="/2019/04/02/hexo在next主题下如何添加分类和标签 - 副本 (2)/" itemprop="url">
+          <a class="post-title-link" href="/2019/04/02/hexo在next主题下如何添加分类和标签 - 副本/" itemprop="url">
             
               <span itemprop="name">hexo在next主题下如何添加分类和标签</span>
             
@@ -859,6 +859,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: false,
+    appId: 'kK4klgNd9F9Cb4wTwUvf6oF5-gzGzoHsz',
+    appKey: 'sXO5NrMdgA8vpPmwKAQltNaN',
+    placeholder: '欢迎留言！匿名也可以留言！',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
 
@@ -1232,15 +1262,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'OPtk9LjgqaRFBn6P03H0xMf8-gzGzoHsz')
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'kK4klgNd9F9Cb4wTwUvf6oF5-gzGzoHsz')
         .done(function({ api_server }) {
           var Counter = function(method, url, data) {
             return $.ajax({
               method: method,
               url: 'https://' + api_server + '/1.1' + url,
               headers: {
-                'X-LC-Id': 'OPtk9LjgqaRFBn6P03H0xMf8-gzGzoHsz',
-                'X-LC-Key': '0AUo8eXCnOf7CD04ekdPplTV',
+                'X-LC-Id': 'kK4klgNd9F9Cb4wTwUvf6oF5-gzGzoHsz',
+                'X-LC-Key': 'sXO5NrMdgA8vpPmwKAQltNaN',
                 'Content-Type': 'application/json',
               },
               data: data

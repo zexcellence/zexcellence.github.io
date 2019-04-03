@@ -450,6 +450,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/04/02/hello-world - 副本 (6) - 副本/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/02/hello-world - 副本 (6) - 副本/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -659,7 +672,7 @@
           
 
   
-    <div class="comments" id="gitalk-container">
+    <div class="comments" id="comments">
     </div>
 
   
@@ -1072,36 +1085,37 @@
   
 
   
-
-
   
-    
 
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
-
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
 
 
 
-<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 <script>
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: md5(location.pathname),
-    
-      language: window.navigator.language || window.navigator.userLanguage,
-    
-    distractionFreeMode: 'true'
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
   });
-  gitalk.render('gitalk-container');
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: false,
+    appId: 'kK4klgNd9F9Cb4wTwUvf6oF5-gzGzoHsz',
+    appKey: 'sXO5NrMdgA8vpPmwKAQltNaN',
+    placeholder: '欢迎留言！匿名也可以留言！',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
 </script>
+
+
+
 
   
 
@@ -1468,15 +1482,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'OPtk9LjgqaRFBn6P03H0xMf8-gzGzoHsz')
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'kK4klgNd9F9Cb4wTwUvf6oF5-gzGzoHsz')
         .done(function({ api_server }) {
           var Counter = function(method, url, data) {
             return $.ajax({
               method: method,
               url: 'https://' + api_server + '/1.1' + url,
               headers: {
-                'X-LC-Id': 'OPtk9LjgqaRFBn6P03H0xMf8-gzGzoHsz',
-                'X-LC-Key': '0AUo8eXCnOf7CD04ekdPplTV',
+                'X-LC-Id': 'kK4klgNd9F9Cb4wTwUvf6oF5-gzGzoHsz',
+                'X-LC-Key': 'sXO5NrMdgA8vpPmwKAQltNaN',
                 'Content-Type': 'application/json',
               },
               data: data
