@@ -419,7 +419,7 @@
                 
               
 
-              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:08:36" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
+              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:45:48" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
             
 
             
@@ -529,24 +529,19 @@
 
       
         
+          <h1 id="如何把你的博客部署到Github-Pages上去？"><a href="#如何把你的博客部署到Github-Pages上去？" class="headerlink" title="如何把你的博客部署到Github Pages上去？"></a>如何把你的博客部署到Github Pages上去？</h1><p><img src="https://github.com/zexcellence/zexcellence.github.io/blob/master/images/002.jpg" alt><br>
+          <!--noindex-->
           
-            <h1 id="如何把你的博客部署到Github-Pages上去？"><a href="#如何把你的博客部署到Github-Pages上去？" class="headerlink" title="如何把你的博客部署到Github Pages上去？"></a>如何把你的博客部署到Github Pages上去？</h1><h3 id="Github账号注册及配置"><a href="#Github账号注册及配置" class="headerlink" title="Github账号注册及配置"></a>Github账号注册及配置</h3><p>注册github帐号<br>建立new repository<br>如果你没有github帐号，请到官网注册一个，然后去邮箱进行验证；如果你有帐号则直接登录。<br>官网：<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> 点击 sign up<br><img src="https://img-blog.csdnimg.cn/20190404172013401.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>注册完后，一般需要验证邮箱，再登录进去<br>（1）新建一个仓库，仓库名为：jaybinkoo.github.io ，如下图所示<br><img src="https://img-blog.csdnimg.cn/20190404172126936.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（2）只需填写 username.github.io 即可，然后点击 create repositrory。 注意：username.github.io 的 username 要和 用户名 保持一致，不然后面会失败。以我的为例：<br><img src="https://img-blog.csdnimg.cn/20190404172222852.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（3）点击github主页右上角的 your profile<br><img src="https://img-blog.csdnimg.cn/20190404172301394.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（4）找到新建立的 username.github.io 文件,点击打开</p>
-<p><img src="https://img-blog.csdnimg.cn/2019040417234083.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（5）点击 settings<br><img src="https://img-blog.csdnimg.cn/20190404172438464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（6）往下拉动鼠标到GitHub Pages<br><img src="https://img-blog.csdnimg.cn/20190404172516926.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（7）点击选择 choose a theme，随便选择一个，（之后我们要更改这些丑陋的模板），然后 select theme 保存就行了.<br>将Hexo与Github page联系起来，设置Git的user name和email（如果是第一次的话）</p>
-<p>（8）配置 Git 个人信息：在 D:\blog\hexo 目录下，鼠标右键打开一个 Git Bash 窗口，输入下面的命令<br><code>git config --global user.name &quot; GitHub 用户名 &quot;</code> 然后 回车 。【GitHub 用户名】：就是刚才你注册的用户名 例如我的<br><code>git config –global user.email “ GitHub 邮箱 “</code>  然后 回车。【GitHub 邮箱】：就是刚才你注册的邮箱 例如我的<br><img src="https://img-blog.csdnimg.cn/20190404172738159.png" alt="在这里插入图片描述"><br>（9） 生成 SSH KEY，其实就是生成一个公钥和密钥，因为 GitHub 需要一个密钥才能与本地相连接。执行以下命令，并 连续按 3 次回车<br>生成密钥：| 输入：<code>ssh-keygen -t rsa -C  &quot; 邮箱地址 &quot;</code> 例如我的：ssh-keygen -t rsa -C “ <a href="mailto:jaybin@aliyun.com" target="_blank" rel="noopener">jaybin@aliyun.com</a> “<br><img src="https://img-blog.csdnimg.cn/20190404172932596.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（10）SSH KEY 生成之后,得到了两个文件：id_rsa 和 id_rsa.pub（默认存储路径是：C:\Users\Administrator.ssh）。打开我的电脑，在地址栏输入 <code>C:\Users\Administrator\.ssh</code> ,然后回车，即可打开这个目录 。<br><img src="https://img-blog.csdnimg.cn/20190404173030112.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（11）鼠标右键选择用记事本打开 id_rsa.pub 文件，复制全部内容，即复制密钥。<br><img src="https://img-blog.csdnimg.cn/20190404173100746.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（12）打开 GitHub ，依次点击 头像 –&gt;Settings–&gt;SSH and GPG keys –&gt; Add SSH key，将复制的密钥粘贴到 key 输入框，最后点击 Add Key ，SSH KEY 配置成功，如下图所示：<br><img src="https://img-blog.csdnimg.cn/20190404173131556.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190404173206429.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（13）修改 hexo 文件夹下的 _config.yml 全局配置文件，修改 deploy 属性代码，将本地 hexo 项目托管到 GitHub 上，如下图所示： 最好用sublime打开 ， 修改完后， 一定要另存为，编码选择 UTF-8 ,否则会出现乱码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line"> type: git #部署的类型</span><br><span class="line"> repository: https://github.com/jaybinkoo/jaybinkoo.github.io.git # 仓库地址</span><br><span class="line"> branch: master #分支名称</span><br></pre></td></tr></table></figure>
-<p>仓库地址可以通过GitHub仓库上，下载按钮获取到：<br><img src="https://img-blog.csdnimg.cn/20190404174658150.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（14）新建一篇博客，行命令窗口输入：hexo new post “博客名” ，然后 回车. 例如 hexo new post “你好，Hexo”<br><img src="https://img-blog.csdnimg.cn/20190404174548150.png" alt="在这里插入图片描述"><br>（15）在生成以及部署文章之前，需要安装一个 hexo-deployer-git 插件扩展<br>输入 <code>npm install hexo-deployer-git --save</code>，然后 回车 。<br><img src="https://img-blog.csdnimg.cn/20190404175047200.png" alt="在这里插入图片描述"><br>（16）执行下面的代码命令： hexo d -g ，将 hexo 项目以及文章托管到 GitHub 上。</p>
-<blockquote>
-<p>注：hexo generate 可缩写为 hexo g ， hexo deploy 可缩写为 hexo d<br><img src="https://img-blog.csdnimg.cn/20190404174857360.png" alt="在这里插入图片描述"><br>在这一步，如果是第一次把文件部署到GitHub上，可能会弹出要你输入GitHub账户和密码，你输入一下就行了。<br>还有一种报错，说发生冲突<br>解决办法为：<br><img src="https://img-blog.csdnimg.cn/20190404175953676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-</blockquote>
-<p>（17）部署成功后,打开浏览器，输入访问你的地址：http://用户名.github.io。那么将看到生成的文章<br><img src="https://img-blog.csdnimg.cn/20190404175215672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>若担心输错，可以在GitHub pages 上复制下来网址：<br><img src="https://img-blog.csdnimg.cn/20190404175401254.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190404175520657.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>到这目前为止你就完成了，将本地hexo框架项目，部署到GitHub上面了，并且可以通过在浏览器里访问你的地址：http://用户名.github.io，查看。<br>下一篇将告诉你，接下来如何进行博客页面美化和装修</p>
-<blockquote>
-<p><a href="https://blog.csdn.net/baidu_35145586/article/details/89033631" target="_blank" rel="noopener">博客页面展示的不是我想要的，如何进行页面装修？</a></p>
-</blockquote>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/04/04/Hexo 搭建博客(二)/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
-    </div>
+    </p></div>
 
 
  <div>
@@ -653,7 +648,7 @@
                 
               
 
-              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:09:29" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
+              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:46:08" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
             
 
             
@@ -763,44 +758,19 @@
 
       
         
+          <p><img src="https://github.com/zexcellence/zexcellence.github.io/blob/master/images/002.jpg" alt><br>
+          <!--noindex-->
           
-            <p>要想绑定自己的域名，让其他人直接通过域名访问你的博客<br>域名需要购买的，国内的可以去阿里云，腾讯云官网 购买。</p>
-<p>你可以随意起你喜欢的名字，然后在该网站进行搜索，没有人占用的话你就可以购买该域名。不同的后缀价格不同。可以看到.com .net.top等域名</p>
-<p>购买完域名以后，需要做以下几个步骤：</p>
-<ol>
-<li>实名认证 </li>
-<li>修改DNS </li>
-<li>域名解析 </li>
-<li>新建CNAME文件</li>
-</ol>
-<p>1  实名认证<br>在修改DNS之前，必须要阿里云官网实名认证成功，用淘宝账户登录然后填写相关信息即可。</p>
-<p>2 修改DNS<br>实名认证成功后，进入管理界面，依次点击：<br><img src="https://img-blog.csdnimg.cn/2019040419295670.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190404193010962.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>修改DNS为：<br>f1g1ns1.dnspod.net<br>f1g1ns2.dnspod.net<br>（ps：腾讯云的DNS好像直接就是这个，不用修改）<br>3 域名解析  （有些平台购买域名后，有赠送域名解析的服务，有些平台没有，有的话直接在购买域名的平台进行域名解析就可了）<br>DNS修改好以后，到DNSPOD这个网站去解析你的域名。<br>首先，微信登录并注册 <a href="https://www.dnspod.cn/，点击域名解析，添加上你的域名。" target="_blank" rel="noopener">https://www.dnspod.cn/，点击域名解析，添加上你的域名。</a><br><img src="https://img-blog.csdnimg.cn/20190404193143158.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>接着，添加以下两条记录即可。<br><img src="https://img-blog.csdnimg.cn/20190404193202223.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<blockquote>
-<p>注意：makcyun.github.io.需换成你自己的名称，另外最后有一个“.”</p>
-</blockquote>
-<p>4 新建CNAME文件<br>在博客根目录文件夹下,例如我的D:\blog\source，新建名为CNAME的记事本文件，去掉后缀。<br>在里面输入你的域名，例如我的：<a href="http://www.makcyun.top即可，保存并关闭。" target="_blank" rel="noopener">www.makcyun.top即可，保存并关闭。</a></p>
-<p><img src="https://img-blog.csdnimg.cn/20190404193337479.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>注意：<br>这里填不填写www前缀都是可以的，区别在于填写www，那么博客网址就会以www开头，例如：<a href="http://www.makcyun.top；如果不填写，博客网址是：makcyun.top，二者都可以，看你喜欢。" target="_blank" rel="noopener">www.makcyun.top；如果不填写，博客网址是：makcyun.top，二者都可以，看你喜欢。</a></p>
-<p>完成以上4步之后，根目录下再次运行：</p>
-<pre><code>hexo d -g  
-</code></pre><p>这时，输入你在记事本里的域名网址，即可打开你的博客。<br>至此，你的博客就换成了你想要的网址，别人也可以通过这个网址访问到你的博客。</p>
-<p>到这里，博客的初步搭建就算完成了，顺利的话不到1小时就能完成，如果中间出现差错，保持耐心多试几次应该就没问题。<br>此时，还有一个比较重要的问题就是，你可能会觉得你的博客不够美观，不如我博客里前面提到的那几个博客，甚至也没有我的好看。</p>
-<h3 id="HEXO-博客开启-HTTPS-SSL-证书"><a href="#HEXO-博客开启-HTTPS-SSL-证书" class="headerlink" title="HEXO 博客开启 HTTPS (SSL 证书)"></a>HEXO 博客开启 HTTPS (SSL 证书)</h3><p>部署了你的网站之后，在GitHub你的项目所在的托管仓库设置里，可以直接获取SSL证书<br><img src="https://img-blog.csdnimg.cn/20190404193955979.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>设置完成之后，等待几分钟就可以完成！使用Https://访问你的网站</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><h3 id="部署到GitHub上"><a href="#部署到GitHub上" class="headerlink" title="部署到GitHub上"></a>部署到GitHub上</h3><p>主要步骤包括：</p>
-<p>git创建SSH密钥<br>在GitHub账户中添加你的公钥<br>测试成功并设置用户信息<br>将本地的Hexo文件更新到Github库中<br>hexo部署更新博客<br>经过以上几步的操作，顺利的话，你的博客可以发布到网上，其他人也可以通过你的网址username.github.io（我的是makcyun.github.io）<br>访问到你的博客。</p>
-<h3 id="在部署到GitHub上，如果遇到，发生冲突，"><a href="#在部署到GitHub上，如果遇到，发生冲突，" class="headerlink" title="在部署到GitHub上，如果遇到，发生冲突，"></a>在部署到GitHub上，如果遇到，发生冲突，</h3><p>解决办法为：修改项目文件下的  .git 文件里的配置文件，在下图位置加上你GitHub的用户名和密码，即可解决。<br><img src="https://img-blog.csdnimg.cn/20190404194242348.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="并且在GitHub上创建仓库时，命名规则一定要是如下的样子-user-name-github-io"><a href="#并且在GitHub上创建仓库时，命名规则一定要是如下的样子-user-name-github-io" class="headerlink" title="并且在GitHub上创建仓库时，命名规则一定要是如下的样子  user name .github.io"></a>并且在GitHub上创建仓库时，命名规则一定要是如下的样子  user name .github.io</h3><p>不然即使部署了，也运行不出来博客界面<br><img src="https://img-blog.csdnimg.cn/20190404194430501.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>参考文章：<a href="https://www.jaybin.top/" target="_blank" rel="noopener">https://www.jaybin.top/</a></p>
-<h3 id="阅读次数报错"><a href="#阅读次数报错" class="headerlink" title="阅读次数报错"></a>阅读次数报错</h3><p><img src="https://img-blog.csdnimg.cn/20190404194811639.png" alt="在这里插入图片描述"><br>解决方法：<br><img src="https://img-blog.csdnimg.cn/20190404194826580.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="在valine里面设置之后，本地运行，发现，底部评论框底下显示：访问被api域名白名单拒绝-请检查你的安全域名设置"><a href="#在valine里面设置之后，本地运行，发现，底部评论框底下显示：访问被api域名白名单拒绝-请检查你的安全域名设置" class="headerlink" title="在valine里面设置之后，本地运行，发现，底部评论框底下显示：访问被api域名白名单拒绝,请检查你的安全域名设置"></a>在valine里面设置之后，本地运行，发现，底部评论框底下显示：访问被api域名白名单拒绝,请检查你的安全域名设置</h3><p>解决办法：我发现的代码不仅设置了<a href="http://www.excellenter.club的域名，而且是放在github仓库，因此在LeanClound安全中心需添加两个网址" target="_blank" rel="noopener">http://www.excellenter.club的域名，而且是放在github仓库，因此在LeanClound安全中心需添加两个网址</a><br><img src="https://img-blog.csdnimg.cn/20190404194910864.png" alt="在这里插入图片描述"></p>
-<h3 id="写博客时-MarkdownPad发生HTML渲染组件出错"><a href="#写博客时-MarkdownPad发生HTML渲染组件出错" class="headerlink" title="写博客时 MarkdownPad发生HTML渲染组件出错"></a>写博客时 MarkdownPad发生HTML渲染组件出错</h3><p><img src="https://img-blog.csdnimg.cn/20190404195033739.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>解决方案为：<br>MarkdownPad 的FAQ文档中给出了解决办法：<a href="http://markdownpad.com/faq.html" target="_blank" rel="noopener">http://markdownpad.com/faq.html</a><br>在文档中搜素This view has crashed，了修复这个问题，你需要安装这么一个SDK工具包，点击链接获取</p>
-<p><img src="https://img-blog.csdnimg.cn/20190404195055581.png" alt="在这里插入图片描述"><br>然后重启markdown就解决问题了。<br><img src="https://img-blog.csdnimg.cn/20190404195108816.png" alt="在这里插入图片描述"><br>如果还没有解决，那就买个新电脑吧！<br>哦！不是，让你再装个微软的渲染插件，就是在 Awesomium 1.6.6 SDK.下面<br><img src="https://img-blog.csdnimg.cn/20190404195126837.png" alt="在这里插入图片描述"></p>
-<blockquote>
-<p>If you continue to experience issues, please install Microsoft’s DirectX End-User Runtimes (June 2010).</p>
-</blockquote>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/04/04/Hexo 搭建博客四（含总结）/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
-    </div>
+    </p></div>
 
 
  <div>
@@ -907,7 +877,7 @@
                 
               
 
-              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:08:49" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
+              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:45:59" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
             
 
             
@@ -1017,74 +987,7 @@
 
       
         
-          <p>上一篇文章，介绍了如何利用 hexo+github pages 搭建个人博客。那么这篇文章则以我的博客为例详细教你打造个性超赞博客 Hexo+GitHubPages+NexT 的主题。<br>我这里选择了 GitHub 上面最多人用的一款主题：Next<br><img src="https://img-blog.csdnimg.cn/20190404181707740.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="安装-next-主题"><a href="#安装-next-主题" class="headerlink" title="安装 next 主题"></a>安装 next 主题</h2><h3 id="第一步：下载next主题"><a href="#第一步：下载next主题" class="headerlink" title="第一步：下载next主题"></a>第一步：下载next主题</h3><p>进入博客 hexo 文件夹里面空白处 D:\blog\hexo，鼠标右键选择 Git Bash here 运行下述命令：<code>git clone https://github.com/iissnan/hexo-theme-next themes/next</code>然后 回车 。这样next主题就会下载到themes文件夹里面了。 （这个命令窗口不要关掉，后面还要用）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20190404181924366.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/2019040418194296.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190404181959610.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="第二步：设置-config-yml-文件"><a href="#第二步：设置-config-yml-文件" class="headerlink" title="第二步：设置 _config.yml 文件"></a>第二步：设置 _config.yml 文件</h3><p>用 sublime 打开 D:\blog\hexo _config.yml 文件，找到 theme 字段，修改参数为：<code>theme: next</code>，(注意：后面有一个空格)<br>修改完，保存。</p>
-<h3 id="第三步：本地测试"><a href="#第三步：本地测试" class="headerlink" title="第三步：本地测试"></a>第三步：本地测试</h3><p>在刚才的命令窗口分别输入以下代码：<br>第一个命令： hexo clean 然后按 回车 ,等一会，出现 $ 符号<br>第二个命令： hexo s -g 然后按 回车 ,等一会，出现:<br>打开浏览器访问 :<a href="http://localhost:4000，查看一下新的博客页面" target="_blank" rel="noopener">http://localhost:4000，查看一下新的博客页面</a><br><img src="https://img-blog.csdnimg.cn/20190404182338597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>可以看到，博客页面非常简洁，（或许和你实际看到的，略有不同，没有关系，后面我们还要进一步美化）。<br>这款主题包含4种风格，默认的是Muse，也可以尝试其他风格。具体操作：<br>打开 D:\blog\hexo_config.yml，定位到 Schemes，想要哪款主题就取消前面的#，我的博客使用的是 Gemini </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini</span><br></pre></td></tr></table></figure>
-<p>好了，我们已经看到基本效果了，现在转到命令窗口，Ctrl+C 停止运行。 （窗口不用关掉，后面还要用）</p>
-<p>首先更换语言成中文，点击blogs文件夹（也就是你博客项目的根目录文件夹）中的_config,yml配置文件，进行修改：<br><img src="https://img-blog.csdnimg.cn/20190404182530775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/201904041825404.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<blockquote>
-<p>如果要用记事本编辑，一定要另存为，编码选 utf-8 。建议用：notepad 或者 subline text。</p>
-</blockquote>
-<p>修改完成后说明主题已经换成next主题，并且样式为Gemini样式，接下来在blogs博客目录下，使用Git 调试运行看看效果：<br>hexo  c   //清空缓存<br>hexo  s  -g<br><img src="https://img-blog.csdnimg.cn/20190404182759974.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/2019040418281312.png" alt="在这里插入图片描述"><br>浏览器：<a href="http://localhost:4000/，效果展示如下：" target="_blank" rel="noopener">http://localhost:4000/，效果展示如下：</a><br><img src="https://img-blog.csdnimg.cn/20190404182835800.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>下面就需要根据个人需求，对该blog主题进行装修了······</p>
-<h2 id="侧边栏美化"><a href="#侧边栏美化" class="headerlink" title="侧边栏美化"></a>侧边栏美化</h2><p><img src="https://img-blog.csdnimg.cn/20190404182941319.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>添加博客名字和slogan<br>修改站点文件如下：<br>文件路径：hexo_config.yml  （hexo 的配置文件）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Hexo Configuration</span><br><span class="line">## Docs: https://hexo.io/docs/configuration.html</span><br><span class="line">## Source: https://github.com/hexojs/hexo/</span><br><span class="line"># Site</span><br><span class="line">title: python爱好者    # 更改为你自己的</span><br><span class="line">subtitle: Bright Future</span><br><span class="line">description: Stay Hungry,Stay Foolish</span><br><span class="line">keywords: python,hexo</span><br><span class="line">author: 爱好者</span><br><span class="line">language: zh-CN</span><br><span class="line">timezone:</span><br></pre></td></tr></table></figure>
-<h3 id="新建标签、分类、关于页面"><a href="#新建标签、分类、关于页面" class="headerlink" title="新建标签、分类、关于页面"></a>新建标签、分类、关于页面</h3><p>第一个：hexo new page “tags”    然后 回车<br>第二个：hexo new page “categories”   然后 回车<br>第三个：hexo new page “about”  然后 回车<br>然后，打开 D:\blog\hexo\source  就可以看到上述三个文件夹。<br>要添加关于博主的介绍，只需要在 D:\blog\hexo\source\about\index.md 文件中，用 markdown 书写内容即可.<br><img src="https://img-blog.csdnimg.cn/20190404183250592.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190404183303351.png" alt="在这里插入图片描述"></p>
-<h3 id="侧栏社交链接图标设置"><a href="#侧栏社交链接图标设置" class="headerlink" title="侧栏社交链接图标设置"></a>侧栏社交链接图标设置</h3><p>可以添加你的github、Email、知乎、简书等社交网站账号。<br>文件路径：hexo\themes\next_config.yml   (主题next 的配置文件)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># ---------------------------------------------------------------</span><br><span class="line"># Sidebar Settings</span><br><span class="line"># ---------------------------------------------------------------</span><br><span class="line"># Social Links.</span><br><span class="line"># Usage: `Key: permalink || icon`</span><br><span class="line"># Key is the link label showing to end users.</span><br><span class="line"># Value before `||` delimeter is the target permalink.</span><br><span class="line"># Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.</span><br><span class="line">social:</span><br><span class="line">  GitHub: https://github.com/jaybinkoo || github</span><br><span class="line">  E-Mail: mailto:jaybin@aliyun.com || envelope</span><br><span class="line">  #Google: https://plus.google.com/yourname || google</span><br><span class="line">  #Twitter: https://twitter.com/yourname || twitter</span><br><span class="line">  #FB Page: https://www.facebook.com/yourname || facebook</span><br><span class="line">  #VK Group: https://vk.com/yourname || vk</span><br><span class="line">  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow</span><br><span class="line">  #YouTube: https://youtube.com/yourname || youtube</span><br><span class="line">  #Instagram: https://instagram.com/yourname || instagram</span><br><span class="line">  #Skype: skype:jaybinkoo?call|chat || skype</span><br></pre></td></tr></table></figure>
-<h3 id="添加侧栏友情链接"><a href="#添加侧栏友情链接" class="headerlink" title="添加侧栏友情链接"></a>添加侧栏友情链接</h3><p>在主题配置文件 _config.yml中Sidebar Settings部分添加字段：网址可以自定义<br><img src="https://img-blog.csdnimg.cn/20190404183716886.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>Hexo  c<br>Hexo  s  –g<br>看下效果：<br><img src="https://img-blog.csdnimg.cn/20190404183740415.png" alt="在这里插入图片描述"></p>
-<h3 id="添加头像并设置随光标转动"><a href="#添加头像并设置随光标转动" class="headerlink" title="添加头像并设置随光标转动"></a>添加头像并设置随光标转动</h3><p>博客添加头像有两种方法：<br>第一种是放在本地文件夹中：D:\blog\hexo\public\uploads，并且命名为avatar.jpg。<br>第二种是将图片放在七牛云中，然后传入链接。推荐这种方式，可以加快网页打开速度。<br>打开站点文件，搜索 avatar ,在下面添加下面代码：（我选择了第二种）<br><img src="https://img-blog.csdnimg.cn/20190404183556825.png" alt="在这里插入图片描述"><br>Hexo  c<br>Hexo  s  –g<br>看下效果：<br><img src="https://img-blog.csdnimg.cn/20190404183809988.png" alt="在这里插入图片描述"></p>
-<h3 id="页脚美化"><a href="#页脚美化" class="headerlink" title="页脚美化"></a>页脚美化</h3><p><img src="https://img-blog.csdnimg.cn/20190404183841804.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这些都很简单， 每个true /false注释写的很清楚，看不懂英文的自己复制下来翻译一下。<br>效果如下：（页脚）<br><img src="https://img-blog.csdnimg.cn/20190404183859598.png" alt="在这里插入图片描述"></p>
-<h3 id="隐藏powered-By-Hexo-主题"><a href="#隐藏powered-By-Hexo-主题" class="headerlink" title="隐藏powered By Hexo/主题"></a>隐藏powered By Hexo/主题</h3><p><img src="https://img-blog.csdnimg.cn/20190404183942803.png" alt="在这里插入图片描述"><br>themes\next\layout_partials\ footer.swig<br>按下图位置进行注释掉，<br><img src="https://img-blog.csdnimg.cn/20190404183923986.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="页脚显示总访客数和总浏览量"><a href="#页脚显示总访客数和总浏览量" class="headerlink" title="页脚显示总访客数和总浏览量"></a>页脚显示总访客数和总浏览量</h3><p><img src="https://img-blog.csdnimg.cn/20190404184013233.png" alt="在这里插入图片描述"><br>在themes\next\layout_partials\ footer.swig，文件首行添加如下代码：</p>
-<pre><code>&lt;script async src=&quot;https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;
-
-#接着修改相应代码：
-# 添加总访客量
-&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
-  访客数:&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人次
-&lt;/span&gt;
-
-{% if theme.footer.powered %}
-      <!--<div class="powered-by">{#
-      #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
-    #}</div>-->
-    {% endif %}
-
-# 添加&apos;|&apos;符号
-{% if theme.footer.powered and theme.footer.theme.enable %}
-      <span class="post-meta-divider">|</span>
-    {% endif %}
-
-
-{% if theme.footer.custom_text %}
-      <div class="footer-custom">{#
-      #}{{ theme.footer.custom_text }}{#
-    #}</div>
-    {% endif %}
-
-# 添加总访问量
-&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;
-   总访问量:&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次
-&lt;/span&gt;
-
-# 添加&apos;|&apos;符号
-{% if theme.footer.powered and theme.footer.theme.enable %}
-      <span class="post-meta-divider">|</span>
-    {% endif %}
-
-# 添加博客全站共：
-&lt;div class=&quot;theme-info&quot;&gt;
-  &lt;div class=&quot;powered-by&quot;&gt;&lt;/div&gt;
-  &lt;span class=&quot;post-count&quot;&gt;博客全站共{{ totalcount(site) }}字&lt;/span&gt;
-&lt;/div&gt;
-</code></pre><p>以上代码#开头的中文要删掉，否则都会显示出来</p>
-<h3 id="显示统计字数和估计阅读时长"><a href="#显示统计字数和估计阅读时长" class="headerlink" title="显示统计字数和估计阅读时长"></a>显示统计字数和估计阅读时长</h3><p>修改主题文件 _config.yml    ：<br>文件位置：blogs_config.yml<br>Post wordcount display settings<br>Dependencies: <a href="https://github.com/willin/hexo-wordcount" target="_blank" rel="noopener">https://github.com/willin/hexo-wordcount</a><br>显示统计字数和估计阅读时长<br>注意：这个要安装插件，先进入站点文件夹根目录<br>然后：<code>npm install hexo-wordcount --save</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">post_wordcount:</span><br><span class="line">  item_text: true</span><br><span class="line">  wordcount: true</span><br><span class="line">  min2read: true</span><br><span class="line">  totalcount: false</span><br><span class="line">  separated_meta: false</span><br></pre></td></tr></table></figure>
-<h3 id="设置阅读全文："><a href="#设置阅读全文：" class="headerlink" title="设置阅读全文："></a>设置阅读全文：</h3><p>在写博客的时候，添加
+          <p><img src="https://github.com/zexcellence/zexcellence.github.io/blob/master/images/002.jpg" alt><br>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -1203,7 +1106,7 @@
                 
               
 
-              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:37:47" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
+              <time title="创建时间：2019-04-04 10:57:01 / 修改时间：20:44:42" itemprop="dateCreated datePublished" datetime="2019-04-04T10:57:01+08:00">2019-04-04</time>
             
 
             
@@ -1313,36 +1216,19 @@
 
       
         
+          <h1 id="hexo在GitHub上搭建个人博客"><a href="#hexo在GitHub上搭建个人博客" class="headerlink" title="hexo在GitHub上搭建个人博客"></a>hexo在GitHub上搭建个人博客</h1><p><img src="https://raw.githubusercontent.com/zexcellence/zexcellence.github.io/master/images/001.jpg" alt><br>
+          <!--noindex-->
           
-            <h1 id="hexo在GitHub上搭建个人博客"><a href="#hexo在GitHub上搭建个人博客" class="headerlink" title="hexo在GitHub上搭建个人博客"></a>hexo在GitHub上搭建个人博客</h1><h2 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><p>在搭建博客之前，首先确保自己本地电脑上已经安装<strong>git, node.js, hexo</strong>这三项软件。<br>不确定自己电脑上是否有这几个软件的话，可以在dos窗口下（也就是CMD窗口）用“软件名 -v”的方式查看，如下图：<br><img src="https://img-blog.csdnimg.cn/201904041631537.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><p>（1）官网下载：<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a> 选择好自己电脑的版本。我的是win7-64位<br>（2）一直点 Next，继续安装<br>（3）在最后一步选择如下：<br><img src="https://img-blog.csdnimg.cn/20190404162739625.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（4）点击 Install，再点击finish 完成安装<br>PS:实在不会可以去网上查考这几个软件更详细的安装教程，不过这几个软件安装起来，到没有什么特别难的地方，哥哥我在安装过程中没遇到什么问题。很快就搞定了。</p>
-<h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>（1）官网下载：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a>  选择与自己电脑数位一致的版本安装，不要都装在C盘底下，不然电脑会很卡 。<br>（2）安装一直next ,然后install ，再然后Finsh ， 就OK了</p>
-<h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>（1）在电脑中新建一个文件夹存放自己的博客,名字自己起。例如：D盘里面新建一个 blog 的文件夹<br>（2）在文件夹内,鼠标右键点击，选择 Git Bash Here 。出现命令窗口<br><img src="https://img-blog.csdnimg.cn/20190404163901792.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（3）输入命令：npm install -g hexo-cli ，按 回车</p>
-<h3 id="建立站点"><a href="#建立站点" class="headerlink" title="建立站点"></a>建立站点</h3><p>（4）接着上一步，输入命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry &quot;https://registry.npm.taobao.org&quot;</span><br></pre></td></tr></table></figure>
-<p>由于默认的 NPM 镜像实在太慢太慢，我们把源替换成淘宝的镜像，<br>需要注意的是，这一次切换是暂时的，如果下回从 npm 下载一些东西还是觉得非常慢，记得再执行一次这一条命令。<br>（5）根据 Hexo 的官方文档 开始使用 — 建站，依次执行下面两条命令，建立我们的新网站：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init Hexo  #初始化 ，会在然来目录下新建一个Hexo 的目录</span><br><span class="line">cd myblogs  #进入到Hexo 目录</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>换了淘宝的镜像后，应该能在几分钟内完成。完成后，Hexo 文件夹下面的目录如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-<ul>
-<li>_config.yml 文件存放着网站的配置信息，可以在这里配置大部分的参数。</li>
-<li>package.json 文件存放着插件信息，从中可以查看那些插件已经安装。</li>
-<li>scaffolds 是模板文件夹，新建文章时，Hexo 会根据 scaffold 来建立文件，不过这个模板和后面的主题里指的模板不一样。</li>
-<li>source 是存放用户资源的地方的文件夹，除 _posts 文件夹之外，开头命名为 _ (下划线) 的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹（别急，等下会生成的），而其他文件会被拷贝过去。</li>
-<li>themes 主题文件夹，Hexo 会根据主题来生成静态页面，我们以后自己安装的主题也都会放在这个文件夹下面，默认的 landscape 主题已经在里面了。<br>（6）在终端中敲入 hexo generate 命令<br>（7）在终端中敲入 hexo server 命令（确保路径仍在 Hexo 下），可以在 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 中看到我们网站默认的样子了。<br>（8）打开浏览器，地址栏输入<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> ，结果如下图，可以看到，初始化的 Hexo 博客搭建成功，可以访问。<br><img src="https://img-blog.csdnimg.cn/20190404165811626.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzM1MTQ1NTg2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>到这一步你的博客在本地服务器上，已经跑通。使用的是Hexo 默认的主题，Hexo文件夹中的文件就是你博客项目的所有文件。<br>当然，对于页面内容你还没做任何修改，目前只是在本地把Hexo框架搭建起来了。<br>下面请思考三个问题？</li>
-<li>如何把你的博客部署到Github Pages上去？</li>
-<li>博客页面不是我想要的，如何进行页面装修？</li>
-<li>如何可以通过域名来实现访问的博客？<br>答案在以下揭晓：请点击<blockquote>
-<p><a href="https://blog.csdn.net/baidu_35145586/article/details/89031694" target="_blank" rel="noopener">如何把你的博客部署到Github Pages上去？</a><br><a href="https://blog.csdn.net/baidu_35145586/article/details/89033631" target="_blank" rel="noopener">博客页面展示的不是我想要的，如何进行页面装修？</a><br><a href="https://blog.csdn.net/baidu_35145586/article/details/89034390" target="_blank" rel="noopener">如何可以通过域名来实现访问的博客？</a></p>
-</blockquote>
-</li>
-</ul>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/04/04/Hexo 搭建博客(一)/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
-    </div>
+    </p></div>
 
 
  <div>
